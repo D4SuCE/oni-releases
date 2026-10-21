@@ -4,7 +4,7 @@
 
 # Oni
 
-**Неофициальный клиент Яндекс Музыки для Windows**<br>
+**Неофициальный клиент Яндекс Музыки для Windows и iPhone**<br>
 Японский стиль, «Моя волна» без повторов и подборки в духе Spotify
 
 <sub>鬼 · 音楽で生きる</sub>
@@ -14,8 +14,9 @@
 [![Версия](https://img.shields.io/github/v/release/D4SuCE/oni-releases?style=for-the-badge&label=версия&color=d9272e&labelColor=171514)](https://github.com/D4SuCE/oni-releases/releases/latest)
 [![Скачивания](https://img.shields.io/github/downloads/D4SuCE/oni-releases/total?style=for-the-badge&label=скачивания&color=c79a54&labelColor=171514)](https://github.com/D4SuCE/oni-releases/releases)
 [![Windows 10 и 11](https://img.shields.io/badge/Windows-10%20%7C%2011-f2eee8?style=for-the-badge&labelColor=171514)](#установка)
+[![iPhone через SideStore](https://img.shields.io/badge/iPhone-SideStore-f2eee8?style=for-the-badge&labelColor=171514)](#iphone)
 
-### [⬇&nbsp; Скачать для Windows](https://github.com/D4SuCE/oni-releases/releases/latest)
+### [⬇&nbsp; Скачать для Windows](https://github.com/D4SuCE/oni-releases/releases/latest) &nbsp;·&nbsp; [iPhone](#iphone)
 
 <br>
 
@@ -92,6 +93,29 @@ mp3, интерфейс на русском и английском.
 Не хотите устанавливать — есть **`Oni-<версия>-portable.exe`**: один файл, работает
 без установки.
 
+## iPhone
+
+App Store неофициальные клиенты не пропускает, поэтому Oni для iPhone ставится через
+[SideStore](https://sidestore.io) — бесплатно, под вашим обычным Apple ID.
+
+1. Установите SideStore по [инструкции на его сайте](https://sidestore.io). Для первой установки
+   один раз понадобится компьютер.
+2. iOS 16 и новее: «Настройки → Конфиденциальность и безопасность → Режим разработчика» →
+   включить, перезагрузить телефон.
+3. В SideStore: **Sources → +** и вставьте адрес
+   ```
+   https://raw.githubusercontent.com/D4SuCE/oni-releases/main/sidestore.json
+   ```
+   Затем Oni → **Install**.
+4. Первый запуск: «Настройки → Основные → VPN и управление устройством» → доверять своему Apple ID.
+
+Новые версии появляются в SideStore сами. Подпись с бесплатным Apple ID живёт 7 дней —
+SideStore продлевает её, когда вы его открываете (нужен интернет), так что заглядывайте в него
+хотя бы раз в неделю. Музыка играет в фоне и управляется с экрана блокировки и с Apple Watch
+(«Исполняется»).
+
+Пока только на компьютере: эквалайзер, пульсация обложек в такт и загрузка своих mp3.
+
 ## Обновления
 
 Установленная программа обновляется сама: проверяет новые версии при запуске,
@@ -137,6 +161,7 @@ Portable-версию нужно обновлять вручную — в её �
 <br>
 
 «Параметры → Приложения → Oni → Удалить». Portable-версию достаточно удалить как файл.
+На iPhone — как любое приложение: долгое нажатие на значок → «Удалить приложение».
 
 </details>
 
