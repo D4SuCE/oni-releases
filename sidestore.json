@@ -1,0 +1,38 @@
+{
+  "name": "Oni",
+  "identifier": "io.github.d4suce.oni",
+  "subtitle": "Неофициальный клиент Яндекс Музыки",
+  "description": "Неофициальный клиент Яндекс Музыки в японском стиле: «Моя волна» без повторов, Daylist, подборки в духе Spotify. Не связан с Яндексом. Для полных треков нужна подписка Яндекс Плюс.",
+  "iconURL": "https://raw.githubusercontent.com/D4SuCE/oni-releases/main/assets/logo.png",
+  "website": "https://github.com/D4SuCE/oni-releases",
+  "tintColor": "D9272E",
+  "apps": [
+    {
+      "name": "Oni",
+      "bundleIdentifier": "local.wave.player",
+      "developerName": "D4SuCE",
+      "subtitle": "Яндекс Музыка в японском стиле",
+      "localizedDescription": "Неофициальный клиент Яндекс Музыки в японском стиле: «Моя волна» без повторов, Daylist, подборки в духе Spotify. Не связан с Яндексом. Для полных треков нужна подписка Яндекс Плюс.",
+      "iconURL": "https://raw.githubusercontent.com/D4SuCE/oni-releases/main/assets/logo.png",
+      "tintColor": "D9272E",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.4.0",
+          "buildVersion": "6",
+          "date": "2026-10-21T07:49:12.328Z",
+          "localizedDescription": "Добавлено\n- «Поделиться → Скопировать ссылку» в меню трека.\n- Меню трека у того, что играет, в том числе в «Моей волне»: правый клик или «…» в плеере\n  внизу, «…» на экране «Сейчас играет», правый клик в очереди.\n- Загруженные вами mp3 отмечены в списках значком.\n\nИсправлено\n- «Добавить в плейлист» в меню трека: список плейлистов открывался за пределами окна.\n- Громкость: выравнивание приглушало почти все треки примерно на 6 дБ, поэтому Oni звучал\n  тише приложения Яндекса. Теперь приглушаются только самые громкие треки.\n- Логотип слева сверху отодвинут от края окна.",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v1.4.0/Oni-1.4.0.ipa",
+          "size": 5735822,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
