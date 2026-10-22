@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.9.0",
+          "buildVersion": "91",
+          "date": "2026-10-22T18:57:32.406Z",
+          "localizedDescription": "Изменено\n- iPhone: лайк через Siri — «Лайкни трек в Oni», «Поставь лайк в Oni», «Лайк в Oni» (фраза «Мне нравится в Oni»\n  путалась с лайком Apple Music и не работала).\n\nДобавлено\n- iPhone: Настройки → «Голосовые команды» — «Лайкни трек» и «Включи волну» для Siri без «в Oni», в одно нажатие.\n- Windows: статус в Discord — друзья видят, что вы слушаете в Oni: трек, исполнителя, обложку и время.\n  На паузе статус пропадает. Выключается в Настройки → Окно → «Статус в Discord».",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v1.9.0/Oni-1.9.0.ipa",
+          "size": 5951671,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.8.0",
           "buildVersion": "88",
           "date": "2026-10-22T18:00:59.045Z",
