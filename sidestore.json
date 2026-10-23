@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.10.3",
+          "buildVersion": "110",
+          "date": "2026-10-23T10:09:17.953Z",
+          "localizedDescription": "Исправлено\n- После перезапуска Oni кнопки «Играть» и «Продолжить» снова запускают трек, на котором остановились. В 1.10.2\n  они только снимали плеер с паузы, а сам трек не загружали — было тихо, пока не переключишь на соседний.",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v1.10.3/Oni-1.10.3.ipa",
+          "size": 6036219,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.10.2",
           "buildVersion": "109",
           "date": "2026-10-23T07:53:57.360Z",
