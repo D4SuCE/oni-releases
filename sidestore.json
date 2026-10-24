@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.11.0",
+          "buildVersion": "114",
+          "date": "2026-10-24T16:09:25.512Z",
+          "localizedDescription": "Oni 1.11.0",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v1.11.0/Oni-1.11.0.ipa",
+          "size": 6040404,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.10.4",
           "buildVersion": "112",
           "date": "2026-10-24T15:46:12.793Z",
