@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.22.1",
+          "buildVersion": "184",
+          "date": "2026-10-25T17:44:53.817Z",
+          "localizedDescription": "Изменено\n- Главная собирается быстрее: «Для вас» и умные плейлисты берут ваши лайки и историю Яндекса одним запросом на двоих,\n  а не каждый своим.\n- Приложение для iPhone стало легче: картинка заставки хранится один раз, а не тремя одинаковыми копиями.",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v1.22.1/Oni-1.22.1.ipa",
+          "size": 5290603,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.22.0",
           "buildVersion": "181",
           "date": "2026-10-25T16:43:38.071Z",
