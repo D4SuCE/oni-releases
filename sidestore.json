@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.19.1",
+          "buildVersion": "170",
+          "date": "2026-10-25T13:50:27.518Z",
+          "localizedDescription": "Исправлено\n- iPhone: свои загруженные треки, которые Яндекс хранит в AAC, снова включаются (была ошибка «cannot open»: Яндекс\n  называет их «aac», а внутри у них M4A, и плеер iPhone не мог их открыть).",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v1.19.1/Oni-1.19.1.ipa",
+          "size": 6148162,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.19.0",
           "buildVersion": "168",
           "date": "2026-10-25T13:34:13.893Z",
