@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.0.3",
+          "buildVersion": "235",
+          "date": "2026-10-28T09:26:25.978Z",
+          "localizedDescription": "Исправлено\n- «Резервные копии»: «Скачать здесь» у скачанного, где есть трек из «✦ Загруженного» друга, больше не падает с ошибкой\n  «Parameters requirements are not met» — такой трек скачивается с Диска друга (в копиях с 28.10.2026).",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v2.0.3/Oni-2.0.3.ipa",
+          "size": 5365482,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.0.2",
           "buildVersion": "234",
           "date": "2026-10-28T08:47:36.486Z",
