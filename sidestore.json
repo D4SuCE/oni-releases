@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.0.5",
+          "buildVersion": "240",
+          "date": "2026-10-28T21:59:47.864Z",
+          "localizedDescription": "Исправлено\n- iPhone, плавный переход — как на Windows в 2.0.4: если трек к концу уже затих, следующий начинается сразу,\n  а не поднимается из тишины весь переход; хвост старого трека не становится громче под уровень нового.",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v2.0.5/Oni-2.0.5.ipa",
+          "size": 5367508,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.0.4",
           "buildVersion": "237",
           "date": "2026-10-28T20:48:08.764Z",
