@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.0.2",
+          "buildVersion": "234",
+          "date": "2026-10-28T08:47:36.486Z",
+          "localizedDescription": "Исправлено\n- iPhone: заголовок «Умные плейлисты» на главной больше не ломается на две строки — подсказка рядом с ним уходит под него.",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v2.0.2/Oni-2.0.2.ipa",
+          "size": 5365424,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.0.1",
           "buildVersion": "232",
           "date": "2026-10-28T07:35:16.311Z",
