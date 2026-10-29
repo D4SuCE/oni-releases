@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.3.3",
+          "buildVersion": "255",
+          "date": "2026-10-29T10:35:49.270Z",
+          "localizedDescription": "Исправлено\n- Текст песни: заливка спешила (в 2.3.2) — теперь её скорость подобрана по самому голосу, выделенному из шести песен\n  (330 строк, от Rap God до баллад): строка заливается почти до следующей, отставание или спешка — около 0,2–0,3 с.",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v2.3.3/Oni-2.3.3.ipa",
+          "size": 5377562,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.3.2",
           "buildVersion": "254",
           "date": "2026-10-29T10:18:15.890Z",
