@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.3.1",
+          "buildVersion": "253",
+          "date": "2026-10-29T10:08:16.832Z",
+          "localizedDescription": "Исправлено\n- Текст песни: строка заливалась медленнее, чем её поют, — растягивалась на паузу или протяжную ноту до следующей\n  строки. Теперь Oni узнаёт темп пения по самой песне и заливает строку в нём, заканчивая до следующей.",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v2.3.1/Oni-2.3.1.ipa",
+          "size": 5377198,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.3.0",
           "buildVersion": "252",
           "date": "2026-10-29T09:32:43.540Z",
