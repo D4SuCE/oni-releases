@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "3.0.3",
+          "buildVersion": "268",
+          "date": "2026-11-02T06:39:11.211Z",
+          "localizedDescription": "Исправлено\n- iPhone: видео без звука в другом приложении (например, лента ВКонтакте) больше не ставит музыку на паузу. Пауза —\n  когда другое приложение забирает звук себе. Приложения, которые играют звук поверх чужой музыки (лента Instagram),\n  теперь музыку не остановят: iOS не сообщает, есть ли у них звук.",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v3.0.3/Oni-3.0.3.ipa",
+          "size": 5410107,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "3.0.2",
           "buildVersion": "265",
           "date": "2026-10-30T13:26:32.563Z",
