@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "3.0.4",
+          "buildVersion": "270",
+          "date": "2026-11-02T07:14:46.944Z",
+          "localizedDescription": "Исправлено\n- iPhone: видео без звука в ленте ВКонтакте всё ещё ставило музыку на паузу (исправление из 3.0.3 не сработало). Теперь Oni\n  сам из-за чужого звука музыку не останавливает никогда; пауза — только когда её прерывает iOS (звонок, приложение,\n  которое забирает звук).",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v3.0.4/Oni-3.0.4.ipa",
+          "size": 5411892,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "3.0.3",
           "buildVersion": "268",
           "date": "2026-11-02T06:39:11.211Z",
