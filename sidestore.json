@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "3.6.1",
+          "buildVersion": "312",
+          "date": "2026-11-06T15:10:26.229Z",
+          "localizedDescription": "Добавлено\n- «Сегодня в Oni» в Настройках → О приложении: сколько устройств открывали Oni за день, и сколько вчера. Своего сервера нет: раз в день Oni скачивает с GitHub крошечный файл этого дня, а GitHub считает скачивания; ни аккаунт, ни музыка не передаются. Переключатель «Не считать меня» — там же.",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v3.6.1/Oni-3.6.1.ipa",
+          "size": 5432898,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "3.5.1",
           "buildVersion": "309",
           "date": "2026-11-06T14:11:44.824Z",
