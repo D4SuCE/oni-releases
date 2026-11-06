@@ -5,7 +5,7 @@
 <br><br>
 
 [![Версия](https://img.shields.io/github/v/release/D4SuCE/oni-releases?style=for-the-badge&label=версия&color=d9272e&labelColor=171514)](https://github.com/D4SuCE/oni-releases/releases/latest)
-[![Скачивания](https://img.shields.io/github/downloads/D4SuCE/oni-releases/total?style=for-the-badge&label=скачивания&color=c79a54&labelColor=171514)](https://github.com/D4SuCE/oni-releases/releases)
+[![Вчера в Oni](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FD4SuCE%2Foni-releases%2Fmain%2Fstats.json&query=%24.yesterday&style=for-the-badge&label=вчера%20в%20Oni&color=c79a54&labelColor=171514)](#count)
 [![Windows 10 и 11](https://img.shields.io/badge/Windows-10%20%7C%2011-f2eee8?style=for-the-badge&labelColor=171514)](#install)
 [![iPhone через SideStore](https://img.shields.io/badge/iPhone-SideStore-f2eee8?style=for-the-badge&labelColor=171514)](#iphone)
 
@@ -234,7 +234,8 @@ Portable-версию нужно обновлять вручную — в её �
 Вход — через страницу Яндекса, программа получает только токен доступа к музыке.
 На компьютере он хранится в зашифрованном виде (средствами Windows), у каждого
 пользователя Windows — свой; на iPhone — в связке ключей. Oni обращается только к серверам
-Яндекса (Музыка и, если вы подключите, Диск), к LRCLIB за текстами песен и к GitHub — за обновлениями.
+Яндекса (Музыка и, если вы подключите, Диск), к LRCLIB за текстами песен и к GitHub — за обновлениями
+и раз в день за крошечным файлом-отметкой для счётчика «Сегодня в Oni» (см. ниже).
 
 </details>
 
@@ -244,6 +245,18 @@ Portable-версию нужно обновлять вручную — в её �
 
 Качество выдаёт Яндекс, и некоторым аккаунтам он на любой запрос отдаёт MP3 192 кбит/с.
 Панель звука показывает, что на самом деле играет.
+
+</details>
+
+<a name="count"></a>
+<details>
+<summary><b>Что значит «Сегодня в Oni» и «вчера в Oni»?</b></summary>
+<br>
+
+Сколько устройств открывали Oni за день (по UTC). Своего сервера у Oni нет: каждое устройство раз в день
+скачивает с GitHub крошечный файл этого дня, а GitHub считает скачивания. Ничего не передаётся — ни аккаунт,
+ни музыка, ни номер устройства. Считаются устройства, не люди: ПК и телефон — это два. Не хотите — «Настройки →
+О приложении → Не считать меня».
 
 </details>
 

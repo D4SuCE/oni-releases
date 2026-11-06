@@ -1,0 +1,58 @@
+# "Today in Oni: N" (Oni's Settings → About) without a server: the `stats` release holds a tiny file
+# for each day, day-YYYY-MM-DD (UTC). Each device running Oni downloads today's once a day, and
+# GitHub's download count of it is how many devices opened Oni that day. This run lays out today's
+# and tomorrow's files, drops those older than 90 days, and writes stats.json (yesterday's count and
+# the last 30 days) for the badge on the README. Nothing about anyone is kept: only the counts.
+name: stats
+
+on:
+  schedule:
+    - cron: '5 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Day files and stats.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          assets=$(gh api repos/${{ github.repository }}/releases/tags/stats --jq '.assets[] | "\(.name) \(.download_count)"')
+          printf 'oni\n' > day.txt
+          for d in "$(date -u +%F)" "$(date -u -d tomorrow +%F)"; do
+            if ! grep -q "^day-$d " <<< "$assets"; then
+              cp day.txt "day-$d"
+              gh release upload stats "day-$d" -R ${{ github.repository }}
+              echo "laid out day-$d"
+            fi
+          done
+          old=$(date -u -d '90 days ago' +%F)
+          grep -o '^day-[0-9-]*' <<< "$assets" | while read -r name; do
+            if [[ "${name#day-}" < "$old" ]]; then gh release delete-asset stats "$name" -R ${{ github.repository }} --yes; fi
+          done
+          yesterday=$(date -u -d yesterday +%F)
+          ASSETS="$assets" YESTERDAY="$yesterday" python3 -c '
+          import json, os
+          yesterday = os.environ["YESTERDAY"]
+          counts = {}
+          for line in os.environ["ASSETS"].splitlines():
+              name, _, n = line.strip().partition(" ")
+              if name.startswith("day-"):
+                  counts[name[4:]] = int(n)
+          days = dict(sorted((d, n) for d, n in counts.items() if d <= yesterday)[-30:])
+          json.dump({"yesterday": counts.get(yesterday, 0), "date": yesterday, "days": days}, open("stats.json", "w"), indent=1)
+          '
+          cat stats.json
+          if ! git diff --quiet -- stats.json 2>/dev/null || [ -z "$(git ls-files stats.json)" ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add stats.json
+            git commit -m "stats: $yesterday"
+            git push
+          fi
