@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "3.6.3",
+          "buildVersion": "319",
+          "date": "2026-11-11T08:00:35.984Z",
+          "localizedDescription": "Исправлено\n- iPhone: после видео в другом приложении или снятых наушников экран блокировки показывал, что музыка играет (кнопка «пауза»), хотя она стояла на паузе, а нажатие включало музыку. Теперь там честная пауза и кнопка «играть».",
+          "downloadURL": "https://github.com/D4SuCE/oni-releases/releases/download/v3.6.3/Oni-3.6.3.ipa",
+          "size": 5434856,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "3.6.2",
           "buildVersion": "317",
           "date": "2026-11-11T07:37:18.452Z",
